@@ -1,0 +1,1 @@
+SELECT DISTINCT userid FROM users

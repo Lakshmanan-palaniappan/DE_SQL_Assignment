@@ -1,0 +1,9 @@
+BEGIN TRANSACTION
+DELETE FROM users WHERE userid='John'
+SELECT * FROM users
+DELETE FROM users WHERE userid='Mary'
+SELECT * FROM users
+
+ROLLBACK;
+
+SELECT * FROM users

@@ -1,0 +1,1 @@
+SELECT DISTINCT created_date AS date,userid AS name FROM sales
